@@ -3,7 +3,7 @@ Installing GNOME Desktop Environment on Arch Linux PRoot-Distro
 
 # installation
 
-Update Termux And Upgrade First
+Updating and Upgrading Termux
 > pkg update ; pkg upgrade
 
 <details></br>
@@ -15,7 +15,7 @@ pkg in proot-distro ; pd install archlinux ; pd login archlinux
 ```
 ___
 
-basic command in arch
+Basic Pacman Commands
 > pacman -Sy : Update list package.</br>
 > pacman -Syu : Upgrade package.</br>
 > pacman -S (pkg) : Install package.</br>
@@ -29,7 +29,7 @@ in arch run this command first:
 > pacman -Syu
 
 <details></br>
-<summary><b><code>Commands</code></b></summary>
+<summary><b><code>Preview</code></b></summary>
 <p align="center"><img src="https://github.com/NOLEPERS2/Arch-Gnome-Termux/blob/e932738370d654208ac371d92e8f9f6a6fea4685/Screenshot_20240708-110912.png"</p>
 
 ```
