@@ -1,5 +1,5 @@
 # Arch-Gnome-Termux
-Install Gnome In Arch Linux In Termux
+Installing GNOME Desktop Environment on Arch Linux PRoot-Distro
 
 # installation
 
@@ -7,7 +7,7 @@ Update Termux And Upgrade First
 > pkg update ; pkg upgrade
 
 <details></br>
-<summary><b><code>Install Arch In Termux</code></b></summary>
+<summary><b><code>Install Arch Linux</code></b></summary>
 
 * Arch Linux ARM64
 ```
@@ -26,10 +26,10 @@ basic command in arch
 ## Desktop Environment
 
 in arch run this command first:
-> pacman -Sy ; pacman -Syu
+> pacman -Syu
 
 <details></br>
-<summary><b><code>Install Gnome Desktop</code></b></summary>
+<summary><b><code>Commands</code></b></summary>
 <p align="center"><img src="https://github.com/NOLEPERS2/Arch-Gnome-Termux/blob/e932738370d654208ac371d92e8f9f6a6fea4685/Screenshot_20240708-110912.png"</p>
 
 ```
@@ -43,7 +43,7 @@ pacman -S gnome-shell gnome-terminal gnome-shell-extensions gnome-tweaks wget
 
 * Termux-X11
 
-in termux run this command :
+Run this command on termux for staring the Arch Linux GNOME :
 ```
 wget https://raw.githubusercontent.com/NOLEPERS2/Arch-Gnome-Termux/main/gnome_arch.sh ; chmod +x gnome_arch.sh ; ./gnome_arch.sh
 ```
